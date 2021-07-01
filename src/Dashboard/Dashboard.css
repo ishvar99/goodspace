@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+  margin-bottom: 5px;
+  justify-content: space-evenly;
+}
+.body-container {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.h-500 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px !important;
+  padding: 0 10px !important;
+}
+.card-1 {
+  background: white;
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  /* height: 90vh; */
+  width: 300px;
+  margin-right: 25px;
+  padding: 20px;
+}
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+.logo {
+  padding: 5px;
+  height: 40px;
+  width: 30px;
+}
+.search {
+  width: 350px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.header-icon img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+.header-icon {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.logo-header {
+  padding: 5px;
+  height: 30px;
+  width: 120px;
+}
+.card-2 {
+  display: flex;
+  background: white;
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-2 img {
+  height: 30px;
+  width: 25px;
+  margin-right: 10px;
+}
+.card-3 {
+  display: flex;
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  align-items: center;
+  justify-content: center;
+}
+.row-11 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.name {
+  font-weight: bold;
+  color: #2463fc;
+  margin-bottom: 5px;
+}
+.location {
+  margin-bottom: 5px;
+}
+.edit-span {
+  margin-left: auto;
+  font-size: 14px;
+}
+.img-avatar {
+  padding: 5px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+}
+.img-avatar-short {
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.green-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: #00d285;
+}
+.location {
+  font-size: 16px;
+}
+.availability {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.availability span {
+  font-size: 12px;
+  padding-left: 5px;
+}
+hr {
+  border: 1px solid #f8f8f8;
+  margin-bottom: 5px;
+}
+.row-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10px;
+}
+.row-12 span {
+  padding: 5px 0;
+}
+.skills-div {
+  padding: 10px 0;
+  display: flex;
+}
+.skills-div div {
+  background: lightblue;
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.type-of-work {
+  margin: 5px 0;
+}
+.work-from-home {
+  font-size: 13px;
+  margin: 5px 0;
+}
+.compensation {
+  margin: 5px 0;
+}
+.per-month {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-size: 13px;
+  width: 100%;
+}
+.per-hour {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 13px;
+  margin: 5px 0;
+}
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  align-items: flex-start;
+  height: 450px;
+  margin-left: 25px;
+}
+.card-header {
+  background: rgba(39, 99, 255, 0.2);
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+.sub-body {
+  display: flex;
+  justify-content: flex-start;
+}
+.sub-body-1 {
+  width: 70%;
+  align-items: flex-start;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+.sub-body-1 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.sub-body-1 p {
+  padding: 10px 0 30px 0;
+  font-weight: 12px;
+  opacity: 0.5;
+}
+.sub-body-1 button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: #2763ff;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #2763ff;
+}
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  flex-grow: 2;
+  margin-right: 100px;
+}
